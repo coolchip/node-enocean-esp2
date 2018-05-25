@@ -1,0 +1,26 @@
+{
+  "name": "node-enocean-esp2",
+  "version": "0.0.1",
+  "description": "Node to parse eltako br14 bus telegrams, based on EnOcean Serial Protocol 2",
+  "keywords": [
+    "EnOcean",
+    "ESP2",
+    "Eltako",
+    "FGW14",
+    "br14",
+    "TCM120"
+  ],
+  "main": "parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sebastian Balling",
+  "license": "MIT",
+  "dependencies": {
+    "serialport": "^6.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.9.1"
+  }
+}
