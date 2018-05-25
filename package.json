@@ -1,7 +1,7 @@
 {
   "name": "node-enocean-esp2",
   "version": "0.0.1",
-  "description": "Node to parse eltako br14 bus telegrams, based on EnOcean Serial Protocol 2",
+  "description": "Node to parse Eltako br14 bus telegrams, based on EnOcean Serial Protocol 2",
   "keywords": [
     "EnOcean",
     "ESP2",
@@ -14,13 +14,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  },
   "author": "Sebastian Balling",
   "license": "MIT",
-  "dependencies": {
-    "serialport": "^6.2.0"
+  "bugs": {
+    "url": "https://github.com/coolchip/node-enocean-esp2/issues"
   },
-  "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-google": "^0.9.1"
+  "homepage": "https://github.com/coolchip/node-enocean-esp2#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coolchip/node-enocean-esp2.git"
   }
 }
