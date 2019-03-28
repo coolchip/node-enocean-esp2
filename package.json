@@ -16,7 +16,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^4.19.1"
+    "eslint": "^5.15.3"
   },
   "author": "Sebastian Balling",
   "license": "MIT",
