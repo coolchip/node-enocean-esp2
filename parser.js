@@ -86,8 +86,9 @@ const hexStringToByteArray = function (hex) {
 const verifyChecksum = function (buf, checksum) {
     let result = 0;
     for (let index = 0; index < buf.length; index++) {
-        result = (result + buf[index]) % 0xff;
+        result = (result + buf[index]);
     }
+    result = result & 0xff;
     return result === checksum;
 };
 
