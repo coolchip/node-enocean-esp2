@@ -1,6 +1,6 @@
 {
   "name": "enocean-esp2",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Node to parse Eltako br14 bus telegrams, based on EnOcean Serial Protocol 2",
   "keywords": [
     "EnOcean",
